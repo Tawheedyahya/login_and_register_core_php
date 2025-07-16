@@ -11,7 +11,7 @@ $method = $_SERVER['REQUEST_METHOD'];
 // 2. Remove the base path (/core/project1-loginregister)
 $basePath = '/core/project1-loginregister';
 $route = str_replace($basePath, '', $url);
-
+$name="yahi";
 // 3. Handle routes with switch
 switch ($route) {
     case '/':
