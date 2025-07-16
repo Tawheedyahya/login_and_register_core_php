@@ -1,4 +1,5 @@
 <?php
+// hii yahi
 function loadenv($path){
     try{
     if(!file_exists($path)){
