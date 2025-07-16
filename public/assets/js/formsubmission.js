@@ -34,6 +34,7 @@
         if(result.success=='user found'){
             window.location.assign('/')
             return;
+            // hiii
         }
         if(result.success=='user inserted successfully'){
             window.location.assign('/login')
